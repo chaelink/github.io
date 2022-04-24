@@ -4,3 +4,4 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const body = document.querySelector("body");
 body.style.background = `url(img/${chosenImage})`;
+body.style.backgroundSize = "cover";
